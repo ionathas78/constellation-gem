@@ -69,30 +69,30 @@ export const MemoryWriteConfirmModal: React.FC<Props> = ({
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm animate-in fade-in duration-200">
-      <div className="bg-zinc-900 border border-zinc-800 rounded-2xl w-full max-w-xl flex flex-col shadow-2xl overflow-hidden text-zinc-100">
+    <div className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto overscroll-contain p-2 sm:p-4 bg-black/80 backdrop-blur-sm animate-in fade-in duration-200">
+      <div className="bg-zinc-900 border border-zinc-800 rounded-2xl w-full max-w-xl min-h-0 max-h-[calc(100dvh-1rem)] sm:max-h-[calc(100dvh-2rem)] flex flex-col shadow-2xl overflow-hidden text-zinc-100">
         {/* Header */}
-        <div className="flex items-center justify-between px-6 py-4 border-b border-zinc-800 bg-zinc-950/80">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400">
+        <div className="shrink-0 flex items-center justify-between gap-2 px-4 sm:px-6 py-3 sm:py-4 border-b border-zinc-800 bg-zinc-950/80">
+          <div className="flex items-center gap-3 min-w-0">
+            <div className="hidden sm:flex shrink-0 w-10 h-10 rounded-xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400">
               <FileEdit className="w-5 h-5" />
             </div>
-            <div>
-              <h2 className="text-base font-semibold text-zinc-100">{title}</h2>
+            <div className="min-w-0">
+              <h2 className="text-sm sm:text-base font-semibold text-zinc-100">{title}</h2>
               <p className="text-xs text-zinc-400">Review and confirm this update to your Google Drive memory files</p>
             </div>
           </div>
           <button
             onClick={onClose}
             disabled={isSubmitting}
-            className="p-2 rounded-lg text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800 transition-colors"
+            className="shrink-0 p-2 rounded-lg text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800 transition-colors"
           >
             <X className="w-5 h-5" />
           </button>
         </div>
 
         {/* Form Body */}
-        <div className="p-6 space-y-4 overflow-y-auto">
+        <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain p-4 sm:p-6 space-y-4">
           {error && (
             <div className="p-3 bg-red-950/60 border border-red-800/80 rounded-xl text-red-200 text-xs flex items-start gap-2">
               <AlertTriangle className="w-4 h-4 text-red-400 shrink-0 mt-0.5" />
@@ -166,7 +166,7 @@ export const MemoryWriteConfirmModal: React.FC<Props> = ({
         </div>
 
         {/* Footer */}
-        <div className="px-6 py-4 border-t border-zinc-800 bg-zinc-950 flex justify-between items-center text-xs">
+        <div className="shrink-0 px-4 sm:px-6 pt-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] border-t border-zinc-800 bg-zinc-950 flex justify-between items-center gap-2 text-xs">
           <button
             type="button"
             onClick={onClose}
@@ -179,17 +179,17 @@ export const MemoryWriteConfirmModal: React.FC<Props> = ({
             type="button"
             onClick={handleExecute}
             disabled={isSubmitting || !text.trim()}
-            className="px-5 py-2 bg-blue-600 hover:bg-blue-500 disabled:opacity-50 text-white font-medium rounded-xl transition-all shadow-sm flex items-center gap-2 cursor-pointer"
+            className="min-w-0 px-3 sm:px-5 py-2.5 bg-blue-600 hover:bg-blue-500 disabled:opacity-50 text-white font-medium rounded-xl transition-all shadow-sm flex items-center justify-center gap-2 cursor-pointer text-center"
           >
             {isSubmitting ? (
               <>
                 <Loader2 className="w-4 h-4 animate-spin" />
-                Writing & Verifying...
+                Writing...
               </>
             ) : (
               <>
                 <CheckCircle2 className="w-4 h-4" />
-                Confirm & Write to Drive
+                Confirm Write
               </>
             )}
           </button>
