@@ -1,0 +1,18 @@
+﻿CROSS-PROJECT STAGING ONLY. Record only potentially reusable architectural findings. No task/project state. Promote useful items to the Repository, then delete them here. Prune aggressively
+
+
+OPEN HYPOTHESES FROM RESEARCH
+Retrieval efficiency: evaluate useful context delivered relative to total context delivered, not merely whether retrieval found a related record.
+Retrieval before compression: preserve rich source material externally, use compact routing metadata, and retrieve source-backed context after the request is known.
+Permission gradients: pre-authorize routine reversible work inside narrow boundaries; reserve explicit human gates for consequential actions.
+Agent safety boundary: evaluate what authorized interaction can cause a model to reveal or do, not only who can access stored data. Favor narrow permissions, validation before consequential writes, and reconstructable logs.
+
+
+
+
+Retrieval-driven memory formation: use stable questions or contextual landmarks to retrieve candidate evidence before deciding what becomes memory; reconcile that evidence with existing memory rather than relying only on end-of-interaction salience.
+Contextual-landmark model: explore memory as a mental map in which existing context provides stable semantic landmarks and routes back to richer source experience; treat this as a design model, not yet a validated finding.
+Stable artifacts, multiple maps: preserve memories as discrete human-readable artifacts while allowing multiple independent topologies or overlays (vector, symbolic, temporal, social, source/provenance) to organize and retrieve the same artifacts.
+Query-sovereign relevance: treat relevance as query-dependent rather than as a permanent property of a memory; let the current task determine which dimensions or maps should guide retrieval.
+Developmental topology: allow the memory map to reorganize as the corpus broadens, so new domains can expose latent relationships among older artifacts without rewriting those artifacts themselves.
+Associative map ≠ memory: use vector geometry or other topology for indexing and connective discovery, but keep the remembered proposition as an explicit artifact; the map should be rebuildable without destroying memory contents.

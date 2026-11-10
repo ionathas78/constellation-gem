@@ -1,0 +1,6 @@
+Key,Topic,Principle,Pointer,Updated,Status
+MEM-001,Scratchpad,Intent = 1–3 words,Rem Scratchpad,2026-09-23,Active
+MEM-002,Memory,Consolidate; don’t accumulate,Memory Store,2026-09-23,Active
+MEM-003,Retrieval,JIT for workers; broad oversight,Memory Store,2026-09-23,Active
+MEM-004,Agent authority,Scope assent before JIT access,Conversation 2026-09-25,2026-09-25,Active
+MEM-005,Memory retrieval experiment,"2026-11-09 controlled test: 4 synthetic records. Lexical 'cobalt' and 'lantern' each returned 2 hits; intersection identified target (1). 'staircase' returned 1. Full paraphrased question returned 0 literal hits. This validates clue combination on tiny corpus, not semantic indexing, scale, or cross-thread persistence. Favor confidence × distinctiveness for query selection; test retrieval separately from interpretation.",Constellation Character Memory Bank / Kitty Pryde; Personal Assistant conversation 2026-11-09; all synthetic rows removed and readback verified,2026-11-09,Pilot finding

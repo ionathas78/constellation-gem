@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PersonaCraft AI - Custom Character Studio</title>
+    <meta name="description" content="Design and interact naturally with custom AI characters powered by Gemini and grounded in your Google Drive documents." />
+    <meta property="og:title" content="PersonaCraft AI - Custom Character Studio" />
+    <meta property="og:description" content="Design and interact naturally with custom AI characters powered by Gemini and grounded in your Google Drive documents." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Ignore external browser extension, WebKit masked, and Vite HMR errors in preview iframe
+      window.addEventListener('unhandledrejection', function (event) {
+        var reason = event && event.reason;
+        var stack = (reason && (reason.stack || '')) + '';
+        var msg = (reason && (reason.message || String(reason))) || '';
+
+        if (
+          msg.includes('WebSocket') ||
+          msg.includes('vite:ws') ||
+          stack.includes('@vite/client') ||
+          stack.includes('webkit-masked-url') ||
+          (reason && typeof reason === 'object' && Object.keys(reason).length === 0)
+        ) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
+      }, true);
+
+      window.addEventListener('error', function (event) {
+        var msg = (event && (event.message || '')) + '';
+        var file = (event && (event.filename || '')) + '';
+        var stack = (event && event.error && (event.error.stack || '')) + '';
+
+        if (
+          msg.includes('WebSocket') ||
+          file.includes('@vite/client') ||
+          file.includes('webkit-masked-url') ||
+          stack.includes('webkit-masked-url') ||
+          msg === 'Script error.'
+        ) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
+      }, true);
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

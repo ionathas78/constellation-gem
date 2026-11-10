@@ -1,0 +1,6 @@
+{
+  "name": "PersonaCraft AI",
+  "description": "Design and interact naturally with custom AI characters powered by Gemini and grounded in your Google Drive documents.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,4 @@
+﻿ROUTER ONLY. No working knowledge.
+Scratchpad: Shared Architecture Scratchpad Shared Architecture Scratchpad — cross-project staging; prune after promotion.
+Repository: ChatGPT Shared Knowledge Repository ChatGPT Shared Knowledge Repository — durable shared knowledge; retrieve only relevant rows.
+Agents may read/write/maintain both without asking. Never store task/project state here.

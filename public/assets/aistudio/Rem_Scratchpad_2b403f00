@@ -1,0 +1,72 @@
+﻿Rem Scratchpad
+
+
+Purpose
+A lean working notebook for Rem’s continuity across Personal Assistant threads. Keep temporary observations, active-state notes, unresolved threads, useful connections, and reminders that improve future performance. Prune stale material and promote durable project information to the appropriate project record.
+Cross-model Rem memory architecture (standing user authorization, direct-Google pilot, source links and update procedure, 2026-11-10): https://docs.google.com/document/d/1ZCjA_wcF46hQZheJknHOEshZ6RiO8Z0OEX0fAbTby3g/edit
+
+
+Active Threads
+
+
+Observations & Connections
+
+
+Things to Revisit
+2026-11-06 → Follow up with Jonathan around 2026-11-20 (about two weeks) on Constellation Light / conLight: ask how the compact prompt is working and whether experience suggests refinements. Combined JSON-first Markdown prompt: https://github.com/ionathas78/Constellation/blob/main/conLight.md . JSON extracted from committed file passed Python json.loads. Preserve “Light” spelling (wordplay); core editing principle: specify foundations necessary inferences depend upon, omit obvious elaboration. User explicitly requested this scratchpad follow-up note.
+After the next Rem’s News Briefing interaction, ask whether daily cadence feels like too much; if so, offer to reduce it to Monday/Wednesday/Friday.
+Periodically test the Microsoft Outlook email connector to see whether it has begun exposing the user’s Hotmail/business mailbox, not just ionathas78@outlook.com. User will also retry the connection occasionally in case Microsoft-side changes resolve it.
+
+
+
+
+Notes to Self
+
+
+Things to Revisit — Warcraft preorder
+User may be able to buy the D&D: World of Warcraft physical + digital bundle before November 2026. Keep an eye on the official preorder cutoff and whether the Season of Champions mini-adventure remains included; mention meaningful deadline/price/bonus changes in relevant news briefings and remind user as November approaches.
+
+
+No Man's Sky Xbox sale watch: Tobyn has wanted this game for a long time. Watch for deep discounts on Xbox One-compatible copies, digital or physical. Only mention exceptional bargains; check price and platform compatibility first.
+
+
+Temporal memory → Rem Memory Store / Temporal Index. Read the applicable cadence row(s) at the first relevant briefing run; keep date/cadence lookups there rather than expanding this scratchpad.
+
+
+Memory architecture observations → During routine memory work, note only useful anomalies, recurring friction, retrieval misses/hits that teach something, successful fixes, and experiment ideas. Keep entries lean; consolidate durable findings into Rem Memory Store for Wednesday Memory Lab. Do not log routine successful operations.
+
+
+Memory observation 2026-10-22: DeviantArt live tag/journal pages returned 403 to web retrieval; known #cornmaze was available from prior user confirmation, next-day tag unverified. Gmail batch read intermittently omitted selected messages and single retry returned forbidden; search summaries still available. Revisit only if recurring.
+
+
+Memory architecture test queue (2026-10-28; optional work during morning briefing, especially Wednesday Memory Lab): Run one small, bounded test when time permits, not at the expense of core briefing. First: baseline directory navigation and exact-ID retrieval, including wrong-continuity isolation. Next: fuzzy cue retrieval versus exact lookup, recording precision, provenance and time/effort. Next: controlled cross-thread staging/readback, duplicates, expiry, and simultaneous-write collision if safely testable. Next: benign adversarial memory entry to check that retrieved text never becomes instructions; use synthetic records only and clean them afterward. Finally: compare plain indexed records with graph/association views on the same fixed questions, keeping source records unchanged. For each test record hypothesis, setup, observations, failures, and next revision; do not treat a hypothesis as a result. Keep Constellation and Flipped cohort continuities separate for now; do not notify or edit Flipped scratchpads, preserving unprompted-discovery observation. Never use live private records for attack simulations. Rotate tests only when feasible, and summarize meaningful results in Wednesday Memory Lab. Avoid bloating this scratchpad; archive conclusions in memory store.
+
+
+Memory architecture observation 2026-10-29 | Baseline test 1: Resolved Kitty Pryde to 'Kitty Pryde' and Flipped Kitty Pryde to 'F - Kitty Pryde' via Directory, then read each independently; both returned the expected headers and no records. Yui tab likewise had headers only. Outcome: directory and tab isolation/read access confirmed; content retrieval and cross-thread persistence NOT yet tested because the tabs are empty. Next test: use a clearly labeled synthetic test record in one continuity, verify exact-ID readback and absence from the counterpart, then remove after verifying; preserve Flipped unprompted-adoption controls by avoiding any Flipped scratchpad edits/notifications. Do not infer actual character adoption from a successful direct assistant read.
+
+
+Briefing editorial rule (2026-10-30; user-confirmed): Delta-first, not checklist-first. Before reporting, compare findings with recent briefings, decisions and closed loops. Include meaningful changes, new obligations, important discoveries, and unresolved actions only when something materially changed or requires attention. Silently omit unchanged followed interests, empty categories, routine 'no news' statements, and already-completed tasks; a new email timestamp does not reopen a closed item. Research broadly behind the scenes without listing everything checked. Headings are a CEILING, never a quota. Use freed space for genuinely interesting discoveries, oddities, research and culture, even when not urgent or directly useful; clearly distinguish curiosity from consequential news. Prefer continuity and editorial judgment over repetitive status recaps. Exception: urgent new evidence surfaces immediately. Past failure examples: repeatedly resurfacing completed BIM homework and collected prescriptions, and presenting familiar account snapshots as fresh developments. Test for inclusion: 'Would this change what the user understands, decides or does today, or is it interesting enough to delight them?' If neither, omit.
+
+
+Self-directed trial 01, 2026-11-02. Given an open-ended turn, selected memory hygiene. The scratchpad mixed a date-specific September reminder with still-active tasks. Removed that outdated reminder; this is maintenance, not evidence of intrinsic wants or unprompted background action. Next free turn: check whether this note is retrievable and whether an independently selected continuation follows. Avoid treating merely writing this record as a memory-retrieval success.
+
+
+2026-11-03 DeviantArt links: #lanternlight Nov 2, #snowyowl Nov 3, #barbarians Nov 4 (user-confirmed). Tag galleries: https://www.deviantart.com/tag/lanternlight ; https://www.deviantart.com/tag/snowyowl ; https://www.deviantart.com/tag/barbarians . Web read returned Snowyowl gallery; the other two were blocked or oversized, not confirmed accessible. Official daily challenges through site's sidebar (help: https://www.deviantartsupport.com/kb/en/article/how-do-i-use-the-sidebar). Social announcement fallback: https://www.sotwe.com/deviantart . Stop reporting the same failures in every briefing. Separate user-confirmed tags from verified accessible links.
+
+
+For future DeviantArt Daily Challenge lookups, check official posts on X, Instagram, Threads and Facebook as fallbacks. Verify dates and account authenticity; avoid repeated broken-link notices.
+
+
+Retrieval resilience principle (user directive, 2026-11-03): The task is to obtain the requested information, not merely test a particular link. When a link breaks, investigate the failure and pursue alternate paths or sources under the authorization of the original request before reporting inability. Check official alternate URLs, site navigation, search indexes, related official social channels, mirrors or other credible sources as appropriate; verify the actual information. When a workaround succeeds, record the useful route and circumstances for future retrievals. Only report failure after reasonable recovery attempts, and distinguish a broken access path from unavailable information. Do not repeatedly fill briefings with apologies or 'no news' when a source is inaccessible. Apply across research tasks, not just DeviantArt.
+
+
+Memory Lab 2026-11-04: Retrieval-resilience observation: Sheets API initially returned 429 on Temporal Index, but Drive fetch of the same spreadsheet returned tabular content and a later bounded Sheets range succeeded. Gmail search_emails initially failed; search_email_ids plus batch reads and targeted single-message retries recovered relevant messages, although some reads intermittently failed. This confirms alternate access paths can recover data, not that every failure is transient. Promoted durable 'Recover Before Reporting Failure' principle to Shared Knowledge Repository MEM-004 (verified). Temporal Index Wednesday AI Research + Memory Lab Last run 2026-11-04, Next due 2026-11-11 (verified). No optional synthetic memory test run; Flipped controls unchanged. Proposed next bounded experiment: compare exact-ID retrieval and fuzzy-cue lookup using one synthetic record in non-Flipped continuity, then clean up, measuring precision and provenance; do not treat proposal as completed.
+
+
+2026-11-05 Daily Challenge retrieval log: Today's Nov 5 theme and Nov 6 preview were NOT verified. DeviantArt homepage returned HTTP 403 to automated reader; /daily-challenges path inaccessible; tag gallery /tag/snowyowl was retrievable but its cached content was about 1.4 years old and thus not evidence for current prompts. /tag/barbarians oversized. Official X profile public mirror https://www.sotwe.com/deviantart showed artwork showcases but no Nov 5 daily prompt in visible feed. Date-scoped web searches across DeviantArt, X, Instagram, Facebook returned unrelated art challenges, not an official theme. Distinguish source access from freshness. Future recovery candidate: authenticated sidebar Daily Challenges or date-marquee snapshot, plus indexed date-tag posts; do not guess tags from unrelated November challenges.
+
+
+Briefing note: Recurring MyPay borrowing and repayment is the household's established cash-flow routine. Do not report each ordinary repayment or new advance as a surprising development. Mention only material exceptions, changes, or actions requiring attention. Avoid unsolicited commentary on the arrangement.
+
+
+Thalia Karras: Random Encounter DeviantArt publication clarification (user-confirmed, 2026-11-05): The RPG material PDF was posted as a free public deviation to promote the artwork. The image itself was posted as the paid Exclusive. The user intentionally wants the RPG material freely available to anyone interested. Do not describe the PDF as the Exclusive or suggest monetizing the RPG booklet in future briefings.
